@@ -1,0 +1,24 @@
+.cha {
+    display:flex;
+    flex-direction: column;
+   align-items: center;
+    background-color: #fff;
+margin: 0 auto;
+}
+
+.im{
+    padding:1.5em;
+    width:600px;
+   
+    
+}
+
+div {
+    text-align: center;
+}
+
+
+.header{
+    margin-top: 1.5em;
+}
+

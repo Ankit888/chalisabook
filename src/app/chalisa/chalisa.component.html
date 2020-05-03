@@ -1,0 +1,33 @@
+
+
+<div [ngSwitch] = "value">
+    <div *ngSwitchCase =" 'hanuman-chalisa'">
+        <app-hanuman></app-hanuman>
+    </div>
+
+    <div *ngSwitchCase =" 'durga-chalisa'">
+      <app-durga></app-durga>
+    </div>
+
+    <div *ngSwitchCase =" 'shiv-chalisa'">
+      <app-shiv></app-shiv>
+      </div>
+
+      <div *ngSwitchCase =" 'ganesh-chalisa'">
+        <app-ganesh></app-ganesh>>
+        </div>
+
+        <div *ngSwitchCase =" 'vishnu-chalisa'">
+           <app-comingsoon></app-comingsoon>
+         </div>
+
+ 
+
+      <div *ngSwitchDefault>
+          <app-page-not-found></app-page-not-found>
+    </div>
+
+   
+
+</div>
+

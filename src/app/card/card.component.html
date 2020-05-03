@@ -1,0 +1,14 @@
+<div class="card-deck  text-center  tb">
+
+    <div *ngFor="let movie of parentData;" class="card  tb1">
+      <img class="card-img-top rounded" src="{{movie.img}}" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">{{movie.name}}</h5>
+        <p class="card-text">{{movie.cast}}</p>
+        <p class="card-text"><small class="text-muted">{{movie.releaseDate}}</small></p>
+        <button (click) = "test(movie)" type="button" class="btn btn-primary">Read</button>
+      </div>
+    </div>
+    
+  </div>
+

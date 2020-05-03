@@ -1,0 +1,32 @@
+.tb{
+    display: table-cell;
+    background-color: #f5f7fa;
+    padding: 1em 1.5em;
+    margin-bottom: 1.5em;
+    border-radius: var(--global-border-radius);
+    box-shadow: 0 3px 12px rgba(0,0,0,.05);
+    background-color: #f5f7fa;
+  
+   
+}
+
+.tb1{
+   
+    margin:5px;
+    background-color: #fff;
+    padding: 4px;
+    
+}
+
+
+@media screen and (min-width: 600px) {
+     .tb{
+         display: flex;
+         flex-direction: column;
+         width:700px;
+         margin: 0 auto;
+         float: none;
+
+     }
+
+  }
